@@ -14,7 +14,7 @@ $(document).ready(function(){
       var message=$("#message").val();
         $.ajax({
           method:"POST",
-            url:"form.php",
+            url:"contact.php",
           data: {name:name,email:email,message:message},
           success:function(msg){
             alert(msg);
