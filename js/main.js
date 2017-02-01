@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is Hillary", "I'm a Web Developer", "I Love Clean Code"],
+        strings: ["My Name is Hillary", "I'm a Web Developer", "I have a Full-Stack mind", "and a Front-End Spirit"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -147,15 +147,15 @@
     });
 
     //Skill
-    jQuery('.skillbar').each(function() {
-      jQuery(this).appear(function() {
-        jQuery(this).find('.count-bar').animate({
-          width:jQuery(this).attr('data-percent')
-        },3000);
-        var percent = jQuery(this).attr('data-percent');
-        jQuery(this).find('.count').html('<span>' + percent + '</span>');
-      });
-    });
+    // jQuery('.skillbar').each(function() {
+    //   jQuery(this).appear(function() {
+    //     jQuery(this).find('.count-bar').animate({
+    //       width:jQuery(this).attr('data-percent')
+    //     },3000);
+    //     var percent = jQuery(this).attr('data-percent');
+    //     jQuery(this).find('.count').html('<span>' + percent + '</span>');
+    //   });
+    // });
 
 
   });
