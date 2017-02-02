@@ -10,7 +10,7 @@ TABLE OF CONTENTS:
 7) Sections
  7.a) portfolio
  7.b) service
- 7.c) experience
+ 7.c) education
  7.f) about
  7.g) contact
  7.h) footer
@@ -475,7 +475,7 @@ p {
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
 }
-.job {
+.degree {
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -483,7 +483,7 @@ p {
   text-transform: uppercase;
   color: #cccccc;
 }
-.company {
+.school {
   font-size: 12px;
   line-height: 14px;
   border: 1px solid #ececec;
@@ -700,7 +700,7 @@ ul.portfolio-image li .desc{
 .hill {
   display: inline;
 }
-/*---------- c. experience -----------*/
+/*---------- c. education -----------*/
 .wrap-card {
   position: relative;
   box-shadow: 0px 0px 0px #818181;
@@ -1073,60 +1073,6 @@ ul.portfolio-image li .desc{
   padding: 40px 0 10px 0;
   color: #636363;
   text-align: center;
-  color: yellow;
+  color: #C0D6E4;
 }
 
-/*----------------------------------------- 8) Component --------------------------------------------------*/
-/*---------------- a. Skills ----------------*/
-.skillst {margin-top: 30px;}
-.skillst .skillbar {
-  width: 100%;
-  height: 10px;
-  background-color: #f6 f6f6;
-  position: relative;
-  margin-bottom: 60px;
-  padding: 2px;
-  box-sizing: border-box;
-}
-.skillst .count-bar {
-  width: 100%;
-  height: 5px;
-  width: 0px;
-  position: relative;
-}
-.skillst .count-bar {background-color: #818181;}
-.skillst .count-bar span{ font-size: 12px;}
-.skillst .title {
-  position: absolute;
-  line-height: 25px;
-  top: -35px;
-  left: 0;
-  padding-left: 10px;
-  font-size: 12px !important;
-}
-.skillst .count-bar .count {
-  position: absolute;
-  line-height: 18px;
-  top: -28px;
-  right: -20px;
-  width: 40px;
-  height: 18px;
-  color: #fff;
-  text-align: center;
-  background-color: #2f2f2f;
-}
-.skillst .count-bar .count span {
-  position: relative;
-  display: block;
-}
-.skillst .count-bar .count span:after {
-  position: absolute;
-  left: 50%;
-  margin-left: -4px;
-  top: 18px;
-  content: "";
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-}
-.skillst .count-bar .count { background-color: #818181;}
-.skillst .count-bar .count span:after { border-top: 4px solid #818181;}
