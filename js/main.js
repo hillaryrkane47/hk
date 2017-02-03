@@ -8,16 +8,16 @@
         })
     });
 
-  $(window).on("load", function() { // makes sure the whole site is loaded
+    $(window).on("load", function() { // makes sure the whole site is loaded
     //preloader
 
     // $("#status").fadeOut(); // will first fade out the loading animation
     // DIV that covers the website.
-    console.log($('img'));
+      console.log($('img'));
 
     //masonry
-    $('.grid').masonry({
-      itemSelector: '.grid-item'
+      $('.grid').masonry({
+        itemSelector: '.grid-item'
 
     });
   });
