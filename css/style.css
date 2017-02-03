@@ -772,9 +772,6 @@ ul.portfolio-image li .desc{
   display: inline-block;
   width: 100%;
 }
-.hk-about {
-  padding: 80px 80px 0 200px;
-}
 
 .diff {
   max-width: 100%;
@@ -783,9 +780,12 @@ ul.portfolio-image li .desc{
   margin: 0;
   min-height: 350px;
   width: 100%;
-  height: 100%;
   float: left;
   display: block;
+}
+
+@media screen and (min-width: 768px){
+  .diff{padding: 80px 80px 0 200px;}
 }
 .wrap-about {
   height: 100%;

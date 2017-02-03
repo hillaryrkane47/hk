@@ -1,9 +1,19 @@
+
 (function($) {
   "use strict";
+
+    $('img').each( function() {
+        $(this).on('load', function() {
+          $("#preloader").delay(450).fadeOut("slow");
+        })
+    });
+
   $(window).on("load", function() { // makes sure the whole site is loaded
     //preloader
-    $("#status").fadeOut(); // will first fade out the loading animation
-    $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
+
+    // $("#status").fadeOut(); // will first fade out the loading animation
+    // DIV that covers the website.
+    console.log($('img'));
 
     //masonry
     $('.grid').masonry({
@@ -145,18 +155,6 @@
       }
       // other options
     });
-
-    //Skill
-    // jQuery('.skillbar').each(function() {
-    //   jQuery(this).appear(function() {
-    //     jQuery(this).find('.count-bar').animate({
-    //       width:jQuery(this).attr('data-percent')
-    //     },3000);
-    //     var percent = jQuery(this).attr('data-percent');
-    //     jQuery(this).find('.count').html('<span>' + percent + '</span>');
-    //   });
-    // });
-
 
   });
 
