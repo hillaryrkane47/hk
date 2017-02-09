@@ -553,7 +553,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('http://decotiis.design/build/img/photo/img-4.jpg');
+  background: url('../images/hero-img.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
