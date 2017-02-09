@@ -13,7 +13,7 @@
 
     // $("#status").fadeOut(); // will first fade out the loading animation
     // DIV that covers the website.
-      console.log($('img'));
+      // console.log($('img'));
 
     //masonry
       $('.grid').masonry({
