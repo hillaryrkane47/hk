@@ -2,17 +2,18 @@
 (function($) {
   "use strict";
 
-    $('img').each( function() {
-        $(this).on('load', function() {
-          $("#preloader").delay(450).fadeOut("slow");
-        })
-    });
+    // $('img').each( function() {
+    //     $(this).on('load', function() {
+    //       $("#preloader").delay(450).fadeOut("slow");
+    //     })
+    // });
 
     $(window).on("load", function() { // makes sure the whole site is loaded
     //preloader
 
-    // $("#status").fadeOut(); // will first fade out the loading animation
+    $("#status").fadeOut(); // will first fade out the loading animation
     // DIV that covers the website.
+    $("#preloader").delay(450).fadeOut("slow");
       // console.log($('img'));
 
     //masonry
@@ -100,7 +101,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is Hillary", "I'm a Web Developer", "I have a Full-Stack mind", "and a Front-End Spirit"],
+        strings: ["My Name is Hillary", "I'm a Front-end Web Developer / Designer", "Currently in the Greater NYC area"],
         typeSpeed: 100,
         backDelay: 900,
         // loop

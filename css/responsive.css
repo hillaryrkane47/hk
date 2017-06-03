@@ -32,6 +32,7 @@
 	}
 
 @media screen and (max-width: 768px){
+
 	/*------ header -----*/
 	.for-sticky{ padding: 0; }
 	.logo-nav { margin-left: 0;}
@@ -48,10 +49,21 @@
 	#home p {width: 100%;}
 
 	/*----- portfolio -----*/
-	.portfolio-image > li{
-		width: 50%;
-	}
+  ul.portfolio-image {
+ /*    padding: ; */
+  }
 
+
+	/* ul.portfolio-image li{
+		width: 50% !important;
+    margin-top: 20px;
+	}
+  .work-li {
+    width: 50% !important;
+  } */
+  /* ul.portfolio-image li .decription-wrap {
+    height: 100%;
+  } */
   /*------- about -------*/
   .hk-about{min-height: 520px;}
   .wrap-about{
